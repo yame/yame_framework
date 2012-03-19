@@ -67,6 +67,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\CommonAssemblyInfo.cs">
+      <Link>CommonAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="Caching\Cache.cs" />
     <Compile Include="Caching\CacheAspNet.cs" />
     <Compile Include="Caching\CacheItemDescriptor.cs" />

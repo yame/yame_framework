@@ -79,6 +79,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\CommonAssemblyInfo.cs">
+      <Link>CommonAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="AreaViewEngine.cs" />
     <Compile Include="AuthorizationProvider.cs" />
     <Compile Include="AuthorizeActionAttribute.cs" />

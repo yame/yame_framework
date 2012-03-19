@@ -49,10 +49,8 @@ namespace Yame.Web
         public string ContentType { get; set; }
         public object Data { get; set; }
 
-		[CLSCompliant(false)]
 		public JsonSerializerSettings SerializerSettings { get; set; }
 
-		[CLSCompliant(false)]
 		public Formatting Formatting { get; set; }
     }
 }
