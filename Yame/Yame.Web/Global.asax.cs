@@ -10,7 +10,6 @@ using Yame.Web.Controllers;
 using Microsoft.Practices.ServiceLocation;
 using CommonServiceLocator.WindsorAdapter;
 using MvcContrib.Castle;
-using Microsoft.Web.Mvc;
 
 namespace Yame.Web
 {

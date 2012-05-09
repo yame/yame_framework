@@ -3,7 +3,6 @@ using System.Web.Mvc;
 using System.Linq;
 using Yame.Core;
 using Yame.Models.Domain;
-using Microsoft.Web.Mvc;
 using System.Collections.Generic;
 
 namespace Yame.Web.Controllers
@@ -34,7 +33,7 @@ namespace Yame.Web.Controllers
 
         //
         // POST: /Work/Create
-        [AcceptAjax, AuthorizeUser]
+        [AuthorizeUser]
         public ActionResult Create(Product product)
         {
             if( !ModelState.IsValid )
