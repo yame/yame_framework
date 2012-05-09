@@ -97,9 +97,6 @@
     <Compile Include="..\CommonAssemblyInfo.cs">
       <Link>CommonAssemblyInfo.cs</Link>
     </Compile>
-    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
-    <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
-    <Compile Include="Areas\Admin\Controllers\ProductController.cs" />
     <Compile Include="MvcExtends\ComponentRegistrar.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -154,21 +151,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Areas\Admin\Views\Home\Details.aspx" />
-    <Content Include="Areas\Admin\Views\Home\Edit.aspx" />
-    <Content Include="Areas\Admin\Views\Home\Index.aspx" />
-    <Content Include="Areas\Admin\Views\Web.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Areas\Admin\Views\Product\Create.aspx" />
-    <Content Include="Areas\Admin\Views\Product\Details.aspx" />
-    <Content Include="Areas\Admin\Views\Product\Edit.aspx" />
-    <Content Include="Areas\Admin\Views\Product\Index.aspx" />
-    <Content Include="Areas\Admin\Views\Shared\Site.Master" />
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
